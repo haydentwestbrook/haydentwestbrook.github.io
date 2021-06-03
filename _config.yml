@@ -1,0 +1,24 @@
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
+
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            Hayden Westbrook
+tagline:          'A Jekyll theme'
+description:      'I am a software developer with 7 years experience building web applications.'
+url:              https://haydentwestbrook.github.io
+baseurl:          /
+
+author:
+  name:           'Hayden Westbrook'
+
+paginate:         5
+
+# Custom vars
+version:          0.0.1
+
+github:
+  repo:           https://github.com/haydentwestbrook
