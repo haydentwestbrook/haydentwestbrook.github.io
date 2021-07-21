@@ -1,8 +1,19 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
 layout: home
 ---
 
-Helo, World!
+<h1>I am a software developer with 7 years experience building web applications.<span class="cursor"></span></h1>
+
+<h2>Technologies</h2>
+<div>
+    <ul>
+        <li>Javascript</li>
+        <li>React</li>
+        <li>PostgreSQL</li>
+    </ul>
+</div>
+
+<h2>Personal Projects</h2>
+<div>
+    
+</div>

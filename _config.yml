@@ -7,8 +7,7 @@ permalink:        pretty
 
 # Setup
 title:            Hayden Westbrook
-tagline:          'A Jekyll theme'
-description:      'I am a software developer with 7 years experience building web applications.'
+tagline:          'My portfolio'
 url:              https://haydentwestbrook.github.io
 baseurl:          /
 
@@ -22,3 +21,9 @@ version:          0.0.1
 
 github:
   repo:           https://github.com/haydentwestbrook
+
+linkedIn: https://www.linkedin.com/in/hayden-westbrook-466a76177/
+email: haydentwestbrook@gmail.com
+phone: 480-495-7811
+
+resume: https://docs.google.com/document/d/1I9ZCOJ4Zilm7hfnn8KoE_pGZJ8IDHqmjk3gh2RHwAhA/export?format=pdf

@@ -1,0 +1,219 @@
+
+
+.sidebar {
+    background-color:rgb(26, 26, 26);
+    border-right: 2px solid rgb(16, 16, 16);
+}
+
+.sidebar__icon {
+    margin-right: .25rem;
+}
+
+footer {
+    border-top: 2px solid rgb(16, 16, 16);
+}
+
+.cursor {
+  width: 1px;
+  height: 40px;
+  position: relative;
+  top: 5px;
+  display: inline-block;
+  -webkit-animation: 1s blink step-end infinite;
+  -moz-animation: 1s blink step-end infinite;
+  -ms-animation: 1s blink step-end infinite;
+  -o-animation: 1s blink step-end infinite;
+  animation-name: 1s blink step-end infinitek;
+}
+
+@-moz-keyframes blink {
+  from, to {
+    background-color: transparent;
+  }
+  50% {
+    background-color: rgb(178, 204, 214);;
+  }
+}
+
+ @-webkit-keyframes blink {
+  from, to {
+    background-color: transparent;
+  }
+  50% {
+    background-color: rgb(178, 204, 214);
+  }
+}
+
+@keyframes blink {
+  from, to {
+    background-color: transparent;
+  }
+  50% {
+    background-color: rgb(178, 204, 214);
+  }
+}
+
+@-ms-keyframes blink {
+  from, to {
+    background-color: transparent;
+  }
+  50% {
+    background-color: rgb(178, 204, 214);;
+  }
+}
+
+@-o-keyframes blink {
+  from, to {
+    background-color: transparent;
+  }
+  50% {
+    background-color: rgb(178, 204, 214);;
+  }
+}
+
+.small-text {
+    color: rgb(132, 132, 132);
+}
+
+ * {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  
+  html,
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  html {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  @media (min-width: 38em) {
+    html {
+      font-size: 20px;
+    }
+  }
+
+  body {
+    background-color: rgb(33, 33, 33);
+    /* color: rgb(178, 204, 214); */
+    color: #eee;
+  }
+  
+  /* No `:visited` state is required by default (browsers will use `a`) */
+  a {
+    color: #268bd2;
+    text-decoration: none;
+  }
+  a strong {
+    color: inherit;
+  }
+  /* `:focus` is linked to `:hover` for basic accessibility */
+  a:hover,
+  a:focus {
+    text-decoration: underline;
+  }
+  
+  /* Headings */
+  h1, h2, h3, h4, h5, h6 {
+    margin-bottom: .5rem;
+    font-weight: bold;
+    line-height: 1.25;
+    text-rendering: optimizeLegibility;
+    color: rgb(178, 204, 214);
+    font-family: Consolas, monaco, monospace;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+  h2 {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+  }
+  h3 {
+    margin-top: 1.5rem;
+    font-size: 1.25rem;
+  }
+  h4, h5, h6 {
+    margin-top: 1rem;
+    font-size: 1rem;
+  }
+  
+  /* Body text */
+  p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+  }
+  
+  strong {
+    color: #303030;
+  }
+  
+  
+  /* Lists */
+  ul, ol, dl {
+    margin-top: 0;
+    margin-bottom: 1rem;
+  }
+  
+  dt {
+    font-weight: bold;
+  }
+  dd {
+    margin-bottom: .5rem;
+  }
+  
+  /* Misc */
+  hr {
+    position: relative;
+    margin: 1.5rem 0;
+    border: 0;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #fff;
+  }
+  
+  
+  img {
+    display: block;
+    max-width: 100%;
+    margin: 0 0 1rem;
+    border-radius: 5px;
+  }
+  
+  /* Tables */
+  table {
+    margin-bottom: 1rem;
+    width: 100%;
+    border: 1px solid #e5e5e5;
+    border-collapse: collapse;
+  }
+  td,
+  th {
+    padding: .25rem .5rem;
+    border: 1px solid #e5e5e5;
+  }
+  tbody tr:nth-child(odd) td,
+  tbody tr:nth-child(odd) th {
+    background-color: #f9f9f9;
+  }
+  
+  .container {
+    max-width: 38rem;
+    padding-left:  1rem;
+    padding-right: 1rem;
+    margin-left:  auto;
+    margin-right: auto;
+  }
+  
+  
+  .page {
+    margin-bottom: 4em;
+  }
+  
+  .page-title {
+    margin-top: 0;
+  }
